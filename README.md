@@ -1,2 +1,2 @@
-# rhis_ansible_ee
+# rhis-builder-ansible-ee
 Ansible execution environment code for rhis_builder 
