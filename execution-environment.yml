@@ -8,9 +8,13 @@ images:
     name: "registry.redhat.io/ansible-automation-platform-24/ee-minimal-rhel9:latest"
 
 dependencies:
-  galaxy: requirements.yml
-#  python: requirements.txt
   system: bindep.txt
+  galaxy: requirements.yml
+  # https://access.redhat.com/solutions/7116301
+  python_interpreter:
+    package_system: python311
+    python_path: /usr/bin/python3.11
+  python: requirements.txt
 
 additional_build_steps:
   prepend_galaxy:
