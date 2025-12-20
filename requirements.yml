@@ -11,4 +11,4 @@ collections:
   - name: "redhat.satellite_operations"
   - name: "redhat.rhel_system_roles"
   - name: "azure.azcollection"
-  - name: "community.vmware"
+  - name: "vmware.vmware"
