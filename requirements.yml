@@ -1,6 +1,6 @@
 ---
 collections:
-  - name: community.general
+  - name: "community.general"
   - name: "community.mysql"
   - name: "ansible.netcommon"
   - name: "ansible.posix"
@@ -12,3 +12,10 @@ collections:
   - name: "redhat.rhel_system_roles"
   - name: "azure.azcollection"
   - name: "vmware.vmware"
+  - name: "infra.ah_configuration"
+  - name: "infra.leapp"
+  - name: "infra.lvm_snapshots"
+  - name: "infra.convert2rhel"
+  - name: "infra.eda_configuration"
+  - name: "infra.ee_utilities"
+  - name: "infra.osbuild"
