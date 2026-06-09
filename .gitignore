@@ -7,3 +7,5 @@ collections/*
 artifacts/*
 context/_build/*
 context/ca.crt
+.vscode/
+.claude/
